@@ -1,4 +1,4 @@
-About Dataset
+# About Dataset
 
 The purpose of this fictional sales dataset is to provide data for Data Analysis practice. The 3 tables must be joined before one can analyze the data.
 
@@ -8,14 +8,15 @@ Customer dimension (history preserving) Product dimension (history preserving) S
 
 The Product Dimension dataset details unique product IDs, names, prices, and their validity periods, along with indicators of current price records.
 
-The Sales Transactions dataset captures sales activities with unique order IDs, product IDs, customer IDs, quantities sold, and order dates. Together, these datasets offer a comprehensive view of customer demographics, product pricing history, and sales transactions.
-Customer Data Table
-.
-.
-.
-.
-Data Dictonary 
-.
+The Sales Transactions dataset captures sales activities with unique order IDs, product IDs, customer IDs, quantities sold, and order dates. Together, these datasets offer a comprehensive view of customer demographics, product pricing history, and sales transactions.  
+<br>
+<br>
+<br>
+## Data Dictonary (Requirement 4, Best Practices)
+<br>
+
+### Customer Data Tabel  
+
 cust_id- Unique ID for each order.
 
 cust_address- Customers address.
@@ -27,10 +28,9 @@ effective_start_date- The date when the product's price became effective.
 effective_end_date- The date when the product's price record will expire .
 
 current_ind- Indicator if the price record is current (Yes/No).
-.
-.
-.
-Product Data Table
+<br>
+<br>
+### Product Data Table
 
 product_id- Unique ID for each product.
 
@@ -43,10 +43,9 @@ effective_start_date- The date when the product's price became effective.
 effective_end_date- The date when the product's price record will expire .
 
 current_ind- Indicator if the price record is current (Yes/No).
-.
-.
-.
-Sales Transactions
+<br>
+<br>
+### Sales Transactions
 
 order_id- Unique ID for each order.
 
