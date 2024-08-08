@@ -1,21 +1,36 @@
-# About Dataset
+# Dataset Overview
 
-The purpose of this fictional sales dataset is to provide data for Data Analysis practice. The 3 tables must be joined before one can analyze the data.
+The objective of this fictional sales dataset is to facilitate data analysis practice. It comprises three distinct tables:
 
-This fictional data set consists of 3 tables:
+  1. Customer Dimension (History Preserving): This table contains unique customer IDs, addresses, ages, and indicators of current records, along with effective start and end dates for each customer.
 
-Customer dimension (history preserving) Product dimension (history preserving) Sales Transactions The Customer Dimension dataset includes unique customer IDs, addresses, ages, and indicators of current records, with effective start and end dates for each customer.
+  2. Product Dimension (History Preserving): This dataset includes unique product IDs, names, prices, and their validity periods, in addition to indicators of current price records.
 
-The Product Dimension dataset details unique product IDs, names, prices, and their validity periods, along with indicators of current price records.
+  3. Sales Transactions: This table captures sales activities with unique order IDs, product IDs, customer IDs, quantities sold, and order dates.
 
-The Sales Transactions dataset captures sales activities with unique order IDs, product IDs, customer IDs, quantities sold, and order dates. Together, these datasets offer a comprehensive view of customer demographics, product pricing history, and sales transactions.  
+Together, these datasets provide a comprehensive view of customer demographics, product pricing history, and sales transactions.
+
+### Project Objective
+
+The aim of this project was to simulate the presentation of sales information to company managers. I segmented the sales data by state and age group to identify key markets and demographic trends. This analysis highlights where the majority of sales originate and which age groups are primarily responsible for purchases.
+
+### Methodology
+
+**Data Extraction and Analysis:** I utilized the Pandas library in Python to extract and analyze data from each dataframe.
+<br>
+**Visualization:** To enhance the visual presentation of the analysis, I employed the Seaborn library. The visualizations included bar charts, a pie chart, and a word cloud.
+Data Dictionary
+
+Below is a data dictionary providing specific details regarding the information presented in each of the three datasets.
+
+
 <br>
 <br>
-<br>
-## Data Dictonary (Requirement 4, Best Practices)
+
+## Data Dictionary 
 <br>
 
-### Customer Data Tabel  
+#### Customer Data Tabel  
 
 cust_id- Unique ID for each order.
 
@@ -30,7 +45,7 @@ effective_end_date- The date when the product's price record will expire .
 current_ind- Indicator if the price record is current (Yes/No).
 <br>
 <br>
-### Product Data Table
+#### Product Data Table
 
 product_id- Unique ID for each product.
 
@@ -45,7 +60,7 @@ effective_end_date- The date when the product's price record will expire .
 current_ind- Indicator if the price record is current (Yes/No).
 <br>
 <br>
-### Sales Transactions
+#### Sales Transactions
 
 order_id- Unique ID for each order.
 
